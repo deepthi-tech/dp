@@ -17,7 +17,11 @@ class Ideone
 		{
 			System.out.println("Even");
 		}
-		else
+		else if(n<0)
+		{
+			System.out.println("Invalid");
+		}
+	        else
 		{
 			System.out.println("Odd");
 		}
