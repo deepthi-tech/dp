@@ -1,6 +1,8 @@
 a=[]
 x=0
-x=list(map(int,input().split()))
-a.append(x)
-b=sorted(x)
+n=int(input())
+for i in range(0,n):
+    x=int(input())
+    a.append(x)
+b=sorted(a)
 print(b)
