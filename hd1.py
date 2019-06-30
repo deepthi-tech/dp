@@ -1,7 +1,7 @@
 import math
 n=int(input())
 a=math.sqrt(n)
-if(int(a)==2):
+if(a==2.0):
     print("yes")
 else:
     print("no")
