@@ -1,3 +1,4 @@
+n=int(input())
 a=[]
 x=input().split()
 for i in x:
