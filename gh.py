@@ -1,0 +1,9 @@
+n1,n2=list(map(int,input().split()))
+if(n1>n2):
+ n3=n1-n2
+else:
+ n3=n2-n1
+if(n3%2==0):
+  print("Even")
+else:
+  print("Odd")
