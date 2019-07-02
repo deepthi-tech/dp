@@ -4,6 +4,6 @@ if(n1>n2):
 else:
  n3=n2-n1
 if(n3%2==0):
-  print("Even")
+  print("even")
 else:
-  print("Odd")
+  print("odd")
