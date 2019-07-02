@@ -1,0 +1,23 @@
+n=int(input())
+a=n%10
+if(a==0):
+ b=n+0
+elif(a==1):
+ b=n+9
+elif(a==2):
+ b=n+8
+elif(a==3):
+ b=n+7
+elif(a==4):
+ b=n+6
+elif(a==5):
+ b=n+5
+elif(a==6):
+ b=n+4
+elif(a==7):
+ b=n+3
+elif(a==8):
+ b=n+2
+elif(a==9):
+ b=n+1 
+print(b)
